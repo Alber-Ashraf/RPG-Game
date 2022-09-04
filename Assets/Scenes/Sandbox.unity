@@ -2929,6 +2929,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 337567194, guid: e5748afc1ea5696439f6066eac186886, type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 337567194, guid: e5748afc1ea5696439f6066eac186886, type: 3}
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 337567194, guid: e5748afc1ea5696439f6066eac186886, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 2163246091805119161, guid: e5748afc1ea5696439f6066eac186886, type: 3}
       propertyPath: m_Name
       value: Player
