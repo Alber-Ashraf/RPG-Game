@@ -1,0 +1,341 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16004 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/#Game Dev/Games Creation/RPG-Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60052
+Successfully changed project path to: D:/#Game Dev/Games Creation/RPG-Game
+D:/#Game Dev/Games Creation/RPG-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 54.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/#Game Dev/Games Creation/RPG-Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002630 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (432ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\#Game Dev\Games Creation\RPG-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\#Game Dev\Games Creation\RPG-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3854.
+Memory consumption went from 128.6 MB to 128.5 MB.
+Total: 2.415700 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.062500 ms  DeleteObjects: 0.080600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002164 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\#Game Dev\Games Creation\RPG-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\#Game Dev\Games Creation\RPG-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3857.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 2.354600 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.094900 ms MarkObjects: 2.009100 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294931.509566 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab
+  artifactKey: Guid(679ff741e12a7e740819ede24a7000b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab using Guid(679ff741e12a7e740819ede24a7000b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ce523756d6149feb7a3c6eb33832ce') in 0.157869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab
+  artifactKey: Guid(c2849fd453abd0445a702a035f04ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab using Guid(c2849fd453abd0445a702a035f04ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9abc1724ff21323b0a010978ab2512d') in 0.015707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab
+  artifactKey: Guid(f65a7bee03bbc4542a4af2c67922b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab using Guid(f65a7bee03bbc4542a4af2c67922b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d639c018ec0f1062e5d4a58fc00fbe1') in 0.027062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab
+  artifactKey: Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab using Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b0f59ef62e301a36122012f6f3b623') in 0.013645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab
+  artifactKey: Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab using Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b19ec087f7839bd3d173f0b2ad3ae3') in 0.015789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab
+  artifactKey: Guid(2b98fd7ecd6a2024e863e0a87aba16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab using Guid(2b98fd7ecd6a2024e863e0a87aba16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5bae6ec3baead14c3ac111621d2ca5') in 0.023726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab
+  artifactKey: Guid(df5b94a5c7b01ae4da71fe5dd12ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab using Guid(df5b94a5c7b01ae4da71fe5dd12ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b42081a10359ff795c7bbb9ee9a992') in 0.014844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab
+  artifactKey: Guid(5a346deceb21d0c4781e67a70fbcc1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab using Guid(5a346deceb21d0c4781e67a70fbcc1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9183ca19c8c280a7302f29d80a0929c7') in 0.016054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab
+  artifactKey: Guid(07ace05306ce58d49963df7396227e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab using Guid(07ace05306ce58d49963df7396227e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60072c4dc465d5b793f6e063a2e27655') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab
+  artifactKey: Guid(64263dff5479cd942833a649f91b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab using Guid(64263dff5479cd942833a649f91b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe8f11d0762a94f58cdc769ede793e') in 0.018164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab
+  artifactKey: Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab using Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3487fd8948c54e6716ba87a0e2788d5') in 0.012766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab
+  artifactKey: Guid(067161ae46386c14c842800eb27cf27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab using Guid(067161ae46386c14c842800eb27cf27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c094263efa394d469198c15e848011') in 0.013102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab
+  artifactKey: Guid(27b2a5e9e01330645a7ab5be223502ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab using Guid(27b2a5e9e01330645a7ab5be223502ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00af674c294f1782fa8b281365bc296') in 0.014509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab
+  artifactKey: Guid(13af847dfa6dbe844ba4b7c902f98f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab using Guid(13af847dfa6dbe844ba4b7c902f98f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8024f6fff7b3cbd395584d201185d4d') in 0.012683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab
+  artifactKey: Guid(d6389bfdb7e456640b3a45339aac60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab using Guid(d6389bfdb7e456640b3a45339aac60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dae8986ead84021b12dd5f07971499') in 0.013694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab
+  artifactKey: Guid(d556d30cab334dd449000218c87322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab using Guid(d556d30cab334dd449000218c87322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863b0bb6cd9b7ecd0faacdf7ba3f4d33') in 0.013970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab
+  artifactKey: Guid(ed4751dea11af194482b9a88578df086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab using Guid(ed4751dea11af194482b9a88578df086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ced26cdbbbf083126a19fb2d9f79422') in 0.013533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab
+  artifactKey: Guid(d66c89601ce96d4419ce36a4dce3c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab using Guid(d66c89601ce96d4419ce36a4dce3c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e30173d74b813c96c96806f1c9d99e') in 0.015684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab
+  artifactKey: Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab using Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957d8a087d3145588e4a01a994de0ade') in 0.013179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab
+  artifactKey: Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab using Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fc9540536b084f8720abb16734386e') in 0.014018 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
